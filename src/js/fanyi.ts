@@ -16,7 +16,7 @@ const insertText = (text: string) => {
 		editBuilder.replace(range, text);
 	});
 };
-const fanyi = vscode.commands.registerCommand('myvscodetool.fanyi', () => {
+const fanyi = vscode.commands.registerCommand('cxxlog.fanyi', () => {
     const editor = vscode.window.activeTextEditor;
     if (!editor) { return; }
 

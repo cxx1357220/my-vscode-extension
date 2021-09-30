@@ -46,7 +46,7 @@ const deleteFoundLog = (logs: any[]) => {
 
 
 const deleteAllLog = vscode.commands.registerCommand(
-    'myvscodetool.clearLog',
+    'cxxlog.clearLog',
     () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
