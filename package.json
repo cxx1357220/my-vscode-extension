@@ -1,9 +1,9 @@
 {
-	"name": "myvscodetool",
-	"displayName": "myvscodetool",
+	"name": "cxxlog",
+	"displayName": "cxx log",
 	"description": "",
 	"version": "0.0.1",
-	"publisher":"cxx1357220",
+	"publisher": "cxx1357220",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
@@ -11,41 +11,41 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:myvscodetool.clearLog",
-		"onCommand:myvscodetool.log",
-		"onCommand:myvscodetool.china",
-		"onCommand:myvscodetool.notesLog",
-		"onCommand:myvscodetool.fanyi"		
+		"onCommand:cxxlog.clearLog",
+		"onCommand:cxxlog.log",
+		"onCommand:cxxlog.china",
+		"onCommand:cxxlog.notesLog",
+		"onCommand:cxxlog.fanyi"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "myvscodetool.clearLog",
+				"command": "cxxlog.clearLog",
 				"title": "clear log"
 			},
 			{
-				"command": "myvscodetool.log",
+				"command": "cxxlog.log",
 				"title": "my log"
 			},
 			{
-				"command": "myvscodetool.china",
+				"command": "cxxlog.china",
 				"title": "China"
 			},
 			{
-				"command": "myvscodetool.notesLog",
+				"command": "cxxlog.notesLog",
 				"title": "notes log"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "myvscodetool.log",
+				"command": "cxxlog.log",
 				"key": "ctrl+shift+l",
 				"mac": "cmd+shift+l",
 				"when": "editorTextFocus"
 			},
 			{
-				"command": "myvscodetool.fanyi",
+				"command": "cxxlog.fanyi",
 				"key": "ctrl+shift+f",
 				"mac": "cmd+shift+f",
 				"when": "editorTextFocus"

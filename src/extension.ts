@@ -5,7 +5,7 @@ import notesAllLog from './js/notesLog';
 import fanyi from './js/fanyi';
 export function activate(context: vscode.ExtensionContext) {
 	const chinaNo1 = vscode.commands.registerCommand(
-		'myvscodetool.china',
+		'cxxlog.china',
 		() => {
 			vscode.window.showInformationMessage('China No.1');
 		}

@@ -16,7 +16,7 @@ const insertText = (text: string) => {
 		editBuilder.replace(range, text);
 	});
 };
-const mylog = vscode.commands.registerCommand('myvscodetool.log', () => {
+const mylog = vscode.commands.registerCommand('cxxlog.log', () => {
     const editor = vscode.window.activeTextEditor;
     if (!editor) { return; }
 

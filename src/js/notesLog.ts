@@ -39,7 +39,7 @@ const notesFoundLog = (logs: any[]) => {
 };
 // 注释页面中全部 log
 const notesAllLog = vscode.commands.registerCommand(
-    'myvscodetool.notesLog',
+    'cxxlog.notesLog',
     () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
